@@ -196,7 +196,7 @@
         </dependency>
         <dependency>
             <groupId>org.csource</groupId>
-            <artifactId>fastdfs</artifactId>
+            <artifactId>fastdfs-client-java</artifactId>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
@@ -208,10 +208,6 @@
             <version>6.10</version>
         </dependency>
         <dependency>
-            <groupId>org.csource</groupId>
-            <artifactId>fastdfs</artifactId>
-        </dependency>
-        <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>servlet-api</artifactId>
         </dependency>
@@ -221,9 +217,9 @@
             <version>2.6</version>
         </dependency>
         <!-- apollo -->
-        <!--<dependency>-->
-            <!--<groupId>com.ctrip.framework.apollo</groupId>-->
-            <!--<artifactId>apollo-client</artifactId>-->
-        <!--</dependency>-->
+        <dependency>
+            <groupId>com.ctrip.framework.apollo</groupId>
+            <artifactId>apollo-client</artifactId>
+        </dependency>
     </dependencies>
 </project>

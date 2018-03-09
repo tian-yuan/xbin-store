@@ -147,10 +147,10 @@
         <kryo.version>2.24.0</kryo.version>
         <kryo-serializers.version>0.26</kryo-serializers.version>
         <fst.version>1.55</fst.version>
-        <fast.version>1.24</fast.version>
+        <fast.version>1.27-SNAPSHOT</fast.version>
         <springfox.swagger2.version>2.6.1</springfox.swagger2.version>
         <lombok.version>1.16.16</lombok.version>
-        <apollo.version>0.8.0</apollo.version>
+        <apollo.version>0.10.0-SNAPSHOT</apollo.version>
     </properties>
 
     <dependencyManagement>
@@ -441,7 +441,7 @@
             <!-- fastdfs -->
             <dependency>
                 <groupId>org.csource</groupId>
-                <artifactId>fastdfs</artifactId>
+                <artifactId>fastdfs-client-java</artifactId>
                 <version>${fast.version}</version>
             </dependency>
 
@@ -464,11 +464,11 @@
                 <version>${lombok.version}</version>
                 <scope>provided</scope>
             </dependency>
-            <!--<dependency>-->
-                <!--<groupId>com.ctrip.framework.apollo</groupId>-->
-                <!--<artifactId>apollo-client</artifactId>-->
-                <!--<version>${apollo.version}</version>-->
-            <!--</dependency>-->
+            <dependency>
+                <groupId>com.ctrip.framework.apollo</groupId>
+                <artifactId>apollo-client</artifactId>
+                <version>${apollo.version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
